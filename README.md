@@ -10,7 +10,11 @@ Conhecimentos utilizados durante o projeto:
 - Funções *callback*
 - Arrays
 
-https://github.com/CalelBecassi/biscoito-da-sorte/assets/55924822/b8ddc9b2-7a1a-471a-9302-115cfdcf6826
-PS: a animação do background está falhando apenas no vídeo
+
+![image](https://github.com/CalelBecassi/biscoito-da-sorte/assets/55924822/8bf44fc6-92de-421f-bc8d-f944b4e300e2)
+
+![image](https://github.com/CalelBecassi/biscoito-da-sorte/assets/55924822/ffea7406-a5af-47a4-8eba-791e5b0eee3c)
+
+
 
 https://calelbecassi.github.io/biscoito-da-sorte/ para ver ele funcionando! :D
