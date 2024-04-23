@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, #190361 0%, #bb00ff 100%);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+
+  display: grid;
+  place-items: center;
+
+  font-size: 1.6rem;
+}
+
+body,
+input,
+button {
+  font-family: "DM sans", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  width: min(42.8rem, 90%);
+
+  box-shadow: 0rem 2rem 5rem rgba(0, 0, 0, 0.8);
+  background-color: white;
+  border-radius: 0.5rem;
+
+  padding: 4.8rem 6.4rem;
+
+  text-align: center;
+}
+
+h1,
+p {
+  color: #34355b;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+
+  margin-bottom: 1.5rem;
+}
+
+.screen1 p {
+  margin-bottom: 2rem;
+}
+
+.screen2 p {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.4rem;
+  color: black;
+}
+
+#luck-message {
+  margin-bottom: 6rem;
+  padding: 1rem;
+
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(85, 85, 85, 0.5);
+  background-color: #e4edf1;
+
+  animation: open 2.5s;
+}
+
+img {
+  width: 100%;
+}
+
+.screen1 button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.screen1 img:hover {
+  animation: shake 0.2s infinite;
+}
+
+#open-again {
+  border-radius: 0.4rem;
+  border: none;
+  padding: 1.6rem;
+  background-color: #ff9500;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+
+  margin-top: 6rem;
+
+  transition: 0.3s background;
+}
+
+#open-again:hover {
+  background-color: #bb7513;
+}
+
+@keyframes shake {
+  0% {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  25% {
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: scale(1.1);
+  }
+  50% {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  75% {
+    margin-left: -5px;
+    margin-right: 5px;
+    transform: scale(1.1) 0.1s;
+  }
+  100% {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@keyframes open {
+  0% {
+    position: relative;
+    transform: translateY(20rem) scale(0);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
